@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
 spree_version = 'master'
-gem 'spree', github: 'spree/spree', branch: spree_version
-gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: spree_version
+# gem 'spree', :path => "/Users/karlaholman/spree_jcauto"
+gem 'spree', github: 'karla-holman/spree_jcauto'
+gem 'spree_auth_devise', '3.5.2'
 
 gemspec
